@@ -14,7 +14,7 @@ int main(void)
 {
   int i;
   i = 0; //iの初期値
-  double *x = (double *)malloc(sizeof(double) * 100);
+  double *x = (double *)malloc(sizeof(double) * 101); //配列の要素数は0から100の101個ある
 
   while( i <= 100 ){
     x[i] = myRoot((double)i);
